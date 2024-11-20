@@ -12,8 +12,8 @@ int main() {
   int tich=firstNumber*secondNumber ;
   printf( "Tich hai so la %d ", tich );
   
-  int thuong= (float)firstNumber/secondNumber ;
-  printf( "Thuong hai so la %d ", thuong );
+  float thuong= firstNumber/secondNumber ;
+  printf( "Thuong hai so la %f ", thuong );
 
 	return 0 ;
 }
